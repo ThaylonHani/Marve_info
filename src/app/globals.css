@@ -1,27 +1,26 @@
 @tailwind base;
+
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --Marvel-color-1: #403728;
+  --Marvel-color-2: #261712;
+  --Marvel-color-3: #59261b;
+  --Marvel-color-4: #bf3326;
+  --Marvel-alternative-4:#FC4635;
+  --Marvel-color-5: #8c281f;
+  --Marvel-white: #ffffff;
+  --Marvel-black: rgba(0, 0, 0,0.9);
+  --Marvel-darkGray: #202020;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--Marvel-darkGray);
+  color: var(--Marvel-alternative-4);
 }
