@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Marvel Info</h1>
+<p>
+Um site onde foi usada uma api da marvel pegar informações de comics e personagens utilizando o next 13.
+</p>
 
-## Getting Started
+- [x] Informações básicas como nome e descrição(Se estiver disponivel na api).
 
-First, run the development server:
+- [x] Rotas diferentes para as comics,personagens e séries
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [ ] Busca por nome.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [ ] Responsividade.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.js`.
+<h2>Entre no site :</h2>
+<h3> <a href="https://marve-info-ccu3s7zwt-thaylonhani.vercel.app"> MarvelInfo <a></h3>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<p>OBS: O projeto mesmo sendo usando o next 13, sei que teve muitas coisas que ainda poderia ser feito, como por exemplo uma página de loading ou 404. Mas ainda vou completar esse projeto, incluindo as coisas que faltaram </p>
 
-## Learn More
+<h2>Imagens do site :</h2>
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h3>Foto da comic: </h3>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<img src='https://user-images.githubusercontent.com/97197486/232931450-945fd059-b21e-49ea-befb-3c4c54832c04.png' width=500 height=400 /> 
 
-## Deploy on Vercel
+<h3>Foto do personagem: </h3>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img src='https://user-images.githubusercontent.com/97197486/232931690-dd0c7b8b-ad50-47d9-9c50-7fa0056befec.png' width=500 height=400 /> 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h3>Mais informações do personagem: </h3>
+
+<img src='https://user-images.githubusercontent.com/97197486/232931960-feb2dd17-66f1-4431-855c-ef5c73b48a7c.png' width=500 height=400 /> 
+
+<h3>Foto da séries: </h3>
+
+<img src='https://user-images.githubusercontent.com/97197486/232932521-6308f1e0-d9f5-417c-b0b9-a33589e34a2f.png' width=500 height=400 /> 
+
+<h3>Mais informações da série incluindo a equipe: </h3>
+
+<img src='https://user-images.githubusercontent.com/97197486/232933185-86431347-8b3c-4f6d-bb21-da84ff280fb2.png' width=500 height=400 /> 
