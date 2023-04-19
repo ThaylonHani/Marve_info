@@ -40,9 +40,9 @@ export function FooterId({ comic }) {
         <section className="bg-[var(--Marvel-darkGray)] text-[var(--Marvel-white)]  w-full text-left items-center p-4">
     <h3 className="text-3xl ">Mais informações</h3>
 
-   <div className="flex justify-between p-6 ">
+   <div className="flex flex-col  text-center gap-4  justify-center p-3 sm:flex-row ">
         {comic.format == 'Comic' ? 
-   <section className="w-1/2 gap-3 flex flex-col">
+   <section className="w-full gap-3 flex flex-col">
      <h3 className="text-2xl ">Mais créditos e informações:</h3>
      <ul>
        <li>
@@ -64,10 +64,10 @@ export function FooterId({ comic }) {
           
           {comic.creators ? <>
           
-            <section className="w-2/4 text-center gap-3 flex flex-col">
+            <section className="w-full text-center gap-3 flex flex-col">
      <h3 className="text-2xl ">Equipe:</h3>
-     <ul className=" flex flex-col justify-center text-center items-center">
-         <li className=" text-center flex flex-col w-1/2">
+     <ul className=" flex flex-col justify-center text-center items-center gap-3 w-full">
+         <li className=" text-center flex flex-col ">
            <strong>Escritor:</strong>
 
            {comic.creators.items.map((item) =>
@@ -77,7 +77,7 @@ export function FooterId({ comic }) {
        
 
        {comic.creators.items.find((item) => item.role === "inker") ? (
-         <li className=" text-center flex flex-col w-1/2">
+         <li className=" text-center flex flex-col ">
            <strong>Inker:</strong>
 
            {comic.creators.items.map((item) =>
@@ -89,7 +89,7 @@ export function FooterId({ comic }) {
        )}
 
        {comic.creators.items.find((item) => item.role === "colorist") ? (
-         <li className=" text-center flex flex-col w-1/2">
+         <li className=" text-center flex flex-col ">
            <strong>Colorista:</strong>
 
            {comic.creators.items.map((item) =>
@@ -101,7 +101,7 @@ export function FooterId({ comic }) {
        )}
 
        {comic.creators.items.find((item) => item.role === "letterer") ? (
-         <li className=" text-center flex flex-col w-1/2">
+         <li className=" text-center flex flex-col">
            <strong>Letrista:</strong>
 
            {comic.creators.items.map((item) =>
@@ -113,7 +113,7 @@ export function FooterId({ comic }) {
        )}
 
        {comic.creators.items.find((item) => item.role === "editor") ? (
-         <li className=" text-center flex flex-col w-1/2">
+         <li className=" text-center flex flex-col">
            <strong>Editor:</strong>
 
            {comic.creators.items.map((item) =>
@@ -126,7 +126,7 @@ export function FooterId({ comic }) {
      </ul>
    </section>
 
-   <section className="w-2/4 text-center gap-3 flex flex-col">
+   <section className="w-full text-center gap-3 flex flex-col">
      <h3 className="text-2xl ">Equipe Cover:</h3>
      <ul className=" flex flex-col justify-center text-center items-center">
        <li className=" text-center flex flex-col w-1/2">

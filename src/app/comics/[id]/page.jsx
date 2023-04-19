@@ -11,9 +11,9 @@ export default async function ComicId({ params }) {
 
   return (
     <div>
-      <section className="flex bg-[var(--Marvel-darkGray)] text-[--Marvel-alternative-4] p-4">
+      <section className="flex bg-[var(--Marvel-darkGray)] text-[--Marvel-alternative-4] p-4 ">
         <Link href="/">Home</Link>
-        <h1 className="mx-auto font-bold text-xl">{comic.title}</h1>
+        <h1 className="mx-auto font-bold text-xl  ">{comic.title}</h1>
       </section>
       <PageId data={comic} thumb={comic.thumbnail} />
      <FooterId comic={comic}/>

@@ -1,6 +1,6 @@
 export async function PageId({ data, thumb }) {
   return (
-    <div className="flex p-8 gap-7 h-[90vh] justify-around items-center ">
+    <div className="flex flex-col p-8 gap-7  justify-around items-center  sm:flex-row ">
       <section>
         <img
           src={`${thumb.path}/portrait_uncanny.jpg`}
@@ -77,7 +77,7 @@ export async function PageId({ data, thumb }) {
           )}
           </> : false}
           {data.description || data.variantDescription ? (
-            <p className="text-white">
+            <p className="text-white w-full my-10">
               {data.description || data.variantDescription}
             </p>
           ) : (
