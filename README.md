@@ -13,7 +13,7 @@ Um site onde foi usada uma api da marvel pegar informações de comics e persona
 
 
 <h2>Entre no site :</h2>
-
+<h3> <a href="https://marve-info-ccu3s7zwt-thaylonhani.vercel.app"> MarvelInfo <a></h3>
 
 <p>OBS: O projeto mesmo sendo usando o next 13, sei que teve muitas coisas que ainda poderia ser feito, como por exemplo uma página de loading ou 404. Mas ainda vou completar esse projeto, incluindo as coisas que faltaram </p>
 
